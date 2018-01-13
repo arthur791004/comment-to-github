@@ -1,0 +1,21 @@
+{
+  "name": "comment-to-github",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "arthur",
+  "license": "MIT",
+  "scripts": {
+    "now-start": "NODE_ENV=production micro",
+    "now-remove": "now remove comment-to-github -y",
+    "deploy": "now --public && now alias"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "jsonwebtoken": "^8.1.0",
+    "micro": "^9.1.0",
+    "node-fetch": "^1.7.3"
+  },
+  "devDependencies": {
+    "now": "^9.0.1"
+  }
+}

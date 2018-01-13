@@ -1,0 +1,11 @@
+{
+  "name": "comment-to-github",
+  "alias": "comment-to-github",
+  "env": {
+    "GH_KEY": "@gh_key",
+    "GH_APP_ID": "@gh_app_id"
+  },
+  "engines": {
+    "node": "8.x.x"
+  }
+}
